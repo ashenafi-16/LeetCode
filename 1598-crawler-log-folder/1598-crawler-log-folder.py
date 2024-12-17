@@ -1,7 +1,6 @@
 class Solution:
     def minOperations(self, logs: List[str]) -> int:
         stk = []
-        
         for i in logs:
             if i == '../':
                 if stk:
